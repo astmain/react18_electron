@@ -16,3 +16,9 @@ npm run render
 npm run desktop
 
 
+# 研究
+Redux,Jotai,Recoil,MobX,Redux,zustand ,Atomic,XState,valtio
+
+# 研究
+打包
+
