@@ -8,7 +8,7 @@ function name(params) {
 const About = () => {
   return (
     <div>
-      <h1>这是关于页面</h1>
+      <h1>关于</h1>
 
       <Button type="primary" onClick={name}>
         点击我

@@ -47,7 +47,8 @@ module.exports = async function run_main_window(params) {
     globalThis.g_time = Date.now() + 100
     globalThis.mainWindow = mainWindow
     // await mainWindow.loadURL(`http://127.0.0.1:5173?t_time=${g_time}`, { userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.215 Safari/537.36' })
-    await mainWindow.loadURL(`http://localhost:5173?t_time=${g_time}`, { userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.215 Safari/537.36' })
+    // await mainWindow.loadURL(`http://localhost:5566?t_time=${g_time}`, { userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.215 Safari/537.36' })
+    await mainWindow.loadURL(`http://127.0.0.1:5566?t_time=${g_time}`, { userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.215 Safari/537.36' })
 
     //    remote===============================
 
