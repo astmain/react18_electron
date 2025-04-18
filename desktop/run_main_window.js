@@ -8,8 +8,8 @@ module.exports = async function run_main_window(params) {
     app.on('window-all-closed', () => process.platform !== 'darwin' ? app.quit() : 0)
 
     const mainWindow = await new BrowserWindow({
-        width: 1800, height: 900, x: -1800 - 100, y: 100,    //家里
-        // width: 1800, height: 1000, x: 2500 + 100, y: 50,     //公司
+        // width: 1800, height: 900, x: -1800 - 100, y: 100,    //家里
+        width: 1800, height: 1000, x: 1900 + 100, y: 10,     //公司
         // ...winState.winOptions,//窗口大小位置状态管理
         // icon: "D:\\AAA\\xx_work\\electron_desktop_00\\public\\rebot.png",//
         // icon: get_path().path_log,//

@@ -34,8 +34,13 @@ export default function aSider() {
       label: '测试cpp',
       icon: <AppstoreOutlined />,
     },
+    {
+      key: 'test1_img_cookie',
+      label: 'test1_img_cookie',
+      icon: <AppstoreOutlined />,
+    },
   ]
 
   // return <div>Menu</div>
-  return <Menu theme="dark" defaultSelectedKeys={['Home']} mode="inline" onClick={handleClick} style={{ height: '100vh' }} items={items}></Menu>
+  return <Menu theme="dark" defaultSelectedKeys={['test1_img_cookie']} mode="inline" onClick={handleClick} style={{ height: '100vh' }} items={items}></Menu>
 }

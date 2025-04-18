@@ -6,6 +6,7 @@ import Home from './pages/Home'
 
 import min_web from './views/min_web/min_web'
 import test_cpp from './views/test_cpp/test_cpp'
+import test1_img_cookie from './views/test1_img_cookie/test1_img_cookie'
 
 const router = createBrowserRouter([
   // const router = createHashRouter([
@@ -41,6 +42,12 @@ const router = createBrowserRouter([
         Component: test_cpp,
         state: 'test_cpp',
         meta: { title: 'test_cpp' },
+      },
+      {
+        path: 'test1_img_cookie',
+        Component: test1_img_cookie,
+        state: 'test1_img_cookie',
+        meta: { title: 'test1_img_cookie' },
       },
     ],
   },
